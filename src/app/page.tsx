@@ -1,3 +1,4 @@
+import { LoginForm } from "@/components/login-form";
 import Image from "next/image";
 
 export default function Home() {
@@ -10,7 +11,8 @@ export default function Home() {
         color:"black"
         
       }}
-      > Running inside an Android app! development </p>
+      > Running inside an Android  </p>
+      <LoginForm />
     </main>
   );
 }
